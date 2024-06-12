@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  
+}
+
+body{
+  background-color: #1B1B1F;
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  padding: 114px 64px 64px 64px;
+  justify-content: space-evenly;
+}
+.hero-info {
+  max-width: 592px;
+}
+.hero h1{
+  color: transparent;
+  line-height: 64px;
+  font-size: 56px;
+}
+.degradate{
+  background: -webkit-linear-gradient( 120deg, #bd34fe 30%, #41d1ff );;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.hero .text{
+  line-height: 64px;
+  font-size: 56px;
+  color: #fff;
+}
+
+.hero .tagline{
+  color: rgba(235, 235, 245, .6);
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.logo img {
+  max-width: 320px;
+  max-height: 320px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  gap: 20px; 
+}
+
+.card {
+  display: flex;
+  flex: 1 1 calc(33.333% - 20px); 
+  box-sizing: border-box; 
+  padding: 24px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #202127;
+  height: 30vh;
+}
+
+.card .icons{
+  background-color: #2B2F36;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    transition: background-color .25s;
+    padding: 10px 5px;
+}
+.card .text{
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card .tagline{
+  padding-top: 8px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.actions{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.action {
+  background: #32363F;
+ color: #fff;
+  flex-shrink: 0;
+    padding: 6px;
+    border-radius: 50px;
+  
+}
+
+.action a{
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0 20px;
+  line-height: 38px;
+  font-size: 14px;
+}
+
+.actions .action:first-child , .actions .action:last-child {
+  background-color: #646CFF; /* Cambia este color según tus necesidades */
+}
